@@ -1,0 +1,27 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 0.25em;
+    padding-top: 50px;
+}
+.main {
+    padding-left: 150px;
+    padding-right: 150px;
+    border: 2px solid dimgrey;
+    background: grey;
+}
+.cum {
+    padding-left: 150px;
+    padding-right: 150px;
+    border: 2px solid dimgray;
+    background: grey;
+}
+.fill{
+}
+.top{
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-left: 180px;
+    position: center;
+    float: top;
+}
